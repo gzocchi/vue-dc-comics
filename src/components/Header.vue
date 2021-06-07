@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-      <a href="#">
+      <a class="logo" href="#">
         <img src="../assets/img/dc-logo.png" alt="DC Logo" />
       </a>
       <ul>
@@ -89,16 +89,22 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    img {
-      height: 60px;
+    a.logo {
+      height: 100%;
+      padding: 10px 0;
+      img {
+        height: 100%;
+      }
     }
 
     ul {
       display: flex;
+      height: 100%;
       list-style: none;
 
       li {
         height: 100%;
+        line-height: 80px;
 
         &:not(:first-child) {
           margin-left: 15px;
@@ -106,7 +112,7 @@ header {
 
         a {
           height: 100%;
-        //   display: inline-block;
+          display: inline-block;
           text-decoration: none;
           text-transform: uppercase;
           border-bottom: 4px solid transparent;
