@@ -168,7 +168,7 @@ footer {
         .list_block {
           padding: 10px;
           padding-left: 0;
-          color: $text_color;
+          // color: $text_color;
 
           h3 {
             margin-bottom: 10px;
@@ -220,7 +220,7 @@ footer {
           padding: 5px 10px;
           text-transform: uppercase;
           text-decoration: none;
-          color: $text_color;
+          color: inherit;
           border: 2px solid $dc_blue;
 
           &:hover {

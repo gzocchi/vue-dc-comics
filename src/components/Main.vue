@@ -22,10 +22,6 @@ main {
   div {
     display: flex;
     align-items: center;
-
-    h1 {
-      color: $text_color;
-    }
   }
 }
 </style>
