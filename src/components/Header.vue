@@ -115,6 +115,7 @@ header {
           display: inline-block;
           text-decoration: none;
           text-transform: uppercase;
+          font-weight: 500;
           border-bottom: 4px solid transparent;
           color: $dc_black;
 

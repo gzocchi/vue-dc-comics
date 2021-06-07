@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
 * {
   box-sizing: border-box;
   padding: 0;
