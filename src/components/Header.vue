@@ -47,7 +47,7 @@ export default {
           active: false,
         },
         {
-          text: "Collectbles",
+          text: "Collectibles",
           url: "#collectibles",
           active: false,
         },

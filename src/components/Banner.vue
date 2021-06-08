@@ -44,8 +44,7 @@ export default {
 @import "../style/variables";
 
 section {
-  // height: 100px;
-  background: $dc_blue;
+  background-color: $dc_blue;
 
   .container {
     display: flex;

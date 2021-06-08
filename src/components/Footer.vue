@@ -102,10 +102,6 @@
             </ul>
           </div>
         </div>
-
-        <div class="dc_logo">
-          <img src="../assets/img/dc-logo-bg.png" alt="DC Logo" />
-        </div>
       </div>
     </section>
 
@@ -157,6 +153,9 @@ footer {
     .container {
       display: flex;
       justify-content: space-between;
+      background-image: url("../assets/img/dc-logo-bg.png");
+      background-repeat: no-repeat;
+      background-position: right;
 
       div.list {
         display: flex;
@@ -168,7 +167,6 @@ footer {
         .list_block {
           padding: 10px;
           padding-left: 0;
-          // color: $text_color;
 
           h3 {
             margin-bottom: 10px;
@@ -187,18 +185,6 @@ footer {
               text-decoration: underline;
             }
           }
-        }
-      }
-
-      div.dc_logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        overflow: hidden;
-
-        img {
-          width: 100%;
         }
       }
     }

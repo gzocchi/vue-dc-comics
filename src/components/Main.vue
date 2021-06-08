@@ -1,14 +1,28 @@
 <template>
   <main>
+    <Jumbotron />
     <div class="container">
-      <h1>--&#62; Content goes here &#60;--</h1>
+      <div class="gallery">
+        <h1>--&#62; Gallery goes here &#60;--</h1>
+      </div>
     </div>
   </main>
 </template>
 
 <script>
+import Jumbotron from "./Jumbotron.vue";
+import comics from "../data/dc-comics.js";
+
 export default {
   name: "Main",
+  components: {
+    Jumbotron,
+  },
+  data: function () {
+    return {
+      comics: comics,
+    };
+  },
 };
 </script>
 
@@ -16,11 +30,12 @@ export default {
 @import "../style/variables";
 
 main {
-  height: 100px;
   background-color: $dc_black;
 
-  div {
+  .gallery {
+    height: 100px;
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
